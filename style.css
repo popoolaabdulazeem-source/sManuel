@@ -617,14 +617,14 @@ color: white;
 .in-nine{
     width: 90%;
     height: 70%;
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     justify-content: space-between;
 }
 .ninth{
     height: 100%;
     width: 200px;
-    background-color: green;
+    /* background-color: green;s */
 }
 .first-nin{
     height: 70px;
@@ -633,6 +633,7 @@ color: white;
         height: 100%;
         width: 100%;
         object-fit:contain ;
+        color: white;
     }
 }
 .ni{
@@ -662,5 +663,13 @@ color: white;
 .ninths{
     height: 100%;
     width: 300px;
-    background-color: green;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.addrss{
+    height: 40px;
+    width: 150px;
+    background-color: #1A1A2E                             ;
 }
